@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_ProcGen_Salt", "Test_ProcGen_Salt.csproj", "{B1BE49D8-BB74-B1BB-D70F-A9A5ABFF544C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_ProcGen_Salt.Plugins", "Test_ProcGen_Salt.Plugins.csproj", "{B131DDF7-36D1-D139-57C0-A9E01D4DF864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_ProcGen_Salt.Editor.Plugins", "Test_ProcGen_Salt.Editor.Plugins.csproj", "{3F406805-8E21-E187-8A43-06D7311DEE7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1BE49D8-BB74-B1BB-D70F-A9A5ABFF544C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BE49D8-BB74-B1BB-D70F-A9A5ABFF544C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BE49D8-BB74-B1BB-D70F-A9A5ABFF544C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BE49D8-BB74-B1BB-D70F-A9A5ABFF544C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B131DDF7-36D1-D139-57C0-A9E01D4DF864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B131DDF7-36D1-D139-57C0-A9E01D4DF864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B131DDF7-36D1-D139-57C0-A9E01D4DF864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B131DDF7-36D1-D139-57C0-A9E01D4DF864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F406805-8E21-E187-8A43-06D7311DEE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F406805-8E21-E187-8A43-06D7311DEE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F406805-8E21-E187-8A43-06D7311DEE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F406805-8E21-E187-8A43-06D7311DEE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

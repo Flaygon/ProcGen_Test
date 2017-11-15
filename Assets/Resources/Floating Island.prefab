@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1604358410188510}
+  m_IsPrefabParent: 1
+--- !u!1 &1494163678736778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4024164236143666}
+  m_Layer: 0
+  m_Name: top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1511323813324268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4348496178379972}
+  m_Layer: 0
+  m_Name: bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1538873680251796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4415873347593258}
+  m_Layer: 0
+  m_Name: lake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1604358410188510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4493382906312574}
+  - component: {fileID: 114943117317644136}
+  - component: {fileID: 114042032187955746}
+  m_Layer: 0
+  m_Name: Floating Island
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4024164236143666
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494163678736778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4493382906312574}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4348496178379972
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1511323813324268}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4493382906312574}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4415873347593258
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538873680251796}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4493382906312574}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4493382906312574
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1604358410188510}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4024164236143666}
+  - {fileID: 4348496178379972}
+  - {fileID: 4415873347593258}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114042032187955746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1604358410188510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c180fca35a9ad478787c3851a2bdce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animals:
+  - {fileID: 1264816108499342, guid: 2b25a36b257d816439f8e42e6d038633, type: 2}
+  minAnimalsSpawned: 0
+  maxAnimalsSpawned: 5
+  minSpecialAnimalsSpawned: 0
+  maxSpecialAnimalsSpawned: 0
+--- !u!114 &114943117317644136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1604358410188510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf37ece71fdb344892c9149d8c4e71d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minIslandSize: 100
+  maxIslandSize: 150
+  slopeThreshold: 0.65
+  biomes:
+  - material: {fileID: 2100000, guid: 999394b19adb0f2409ebf80eef521bb3, type: 2}
+    trees:
+    - {fileID: 1089095692699316, guid: d7b9e2b3e7fb07e449a86fe09f6e4fa1, type: 2}
+    - {fileID: 1914786588810484, guid: 6b6408d4585c9bd4c8f9a6c1c8b7b97f, type: 2}
+    - {fileID: 1402104748482590, guid: 745621f7a5adbab41a98655d8ab323f8, type: 2}
+    bushes:
+    - {fileID: 1774747144709910, guid: fcabae0c03d650944ac5730e890be4fa, type: 2}
+  - material: {fileID: 2100000, guid: 39b6709073d323b469dbc66bd6af2a48, type: 2}
+    trees:
+    - {fileID: 1089095692699316, guid: 6ff8518ccf892b9458c427ea2236edb7, type: 2}
+    - {fileID: 1089095692699316, guid: f692740ed96e6ca4392914e55610f3b6, type: 2}
+    - {fileID: 1914786588810484, guid: 01ab72b0eb15f7646a286c20b9ef7cc4, type: 2}
+    - {fileID: 1914786588810484, guid: bf39daefd82237444b88cbd0cae19922, type: 2}
+    - {fileID: 1402104748482590, guid: 2d4a2c5aeb1a9f14e929d390d087a63c, type: 2}
+    - {fileID: 1402104748482590, guid: ce49191b15703c44f8b8fffa83e2c02e, type: 2}
+    bushes:
+    - {fileID: 1774747144709910, guid: 3190a3d868bd19f4582c148d6e3e6bf3, type: 2}
+    - {fileID: 1774747144709910, guid: 2892aa2be780dbc4eb287f849690dbf0, type: 2}
+  - material: {fileID: 2100000, guid: 61dc6ce514b224b438f9716ccae3cc1e, type: 2}
+    trees:
+    - {fileID: 114240, guid: 6d29a20042cbcc14faad58c20a191901, type: 2}
+    - {fileID: 199576, guid: b06557ebaf0cf854795ad8c6f1f25fa3, type: 2}
+    bushes:
+    - {fileID: 1384381505271778, guid: 076cdeb869a86f74b9c59ee9f9b51fbb, type: 2}
+    - {fileID: 1050851263661712, guid: c38e88f83a8447a4cb1db5b4cbf949df, type: 2}
+    - {fileID: 1398436063761056, guid: 2a068d39697c3464a9e4ad30f2b0a2d4, type: 2}
+    - {fileID: 1742077939967914, guid: dedd52e5c7fc69b4ab14f81083d53a63, type: 2}
+  - material: {fileID: 2100000, guid: 9f15eb3ce9319d248837e6969fa878af, type: 2}
+    trees:
+    - {fileID: 1000011914158716, guid: 78af3a7aad589fa49b8fb946c9e57362, type: 2}
+    - {fileID: 1000011147454354, guid: 01d2dd5255c308a4db25dbb77d9f65ea, type: 2}
+    - {fileID: 1000012936420096, guid: a6dbabfd6d3c8cb47b7243b0b8723af2, type: 2}
+    - {fileID: 1000011937025076, guid: 0b94787e83d06de44ab9db821c2c0142, type: 2}
+    - {fileID: 1000011750255288, guid: af9ebdc546d59e04fa5f4cf6805cc187, type: 2}
+    - {fileID: 1000013472076366, guid: 3f9bc1a85199f7440a7dc65376e90332, type: 2}
+    bushes: []
+  minTreeDensity: 100
+  maxTreeDensity: 300
+  minBushDensity: 500
+  maxBushDensity: 1000
+  settings: {fileID: 11400000, guid: db5b651bb2d649c45aca1b234866cd74, type: 2}
+  islandMaskPrefab: {fileID: 2800000, guid: c2ea1114e967ff841b20ac6a222ca625, type: 3}
+  bottomDepth: 3.5
+  bottomMaterial: {fileID: 2100000, guid: ffd9f1d1cabdf5c4eb7c155031bd9b95, type: 2}
+  lakeMaterial: {fileID: 2100000, guid: 191fd6d2b9064b64c9ccf593caf716dd, type: 2}
+  top: {fileID: 1494163678736778}
+  bottom: {fileID: 1511323813324268}
+  lake: {fileID: 1538873680251796}
+  minHookGroundRadiusSearch: 0
+  maxHookGroundRadiusSearch: 0
